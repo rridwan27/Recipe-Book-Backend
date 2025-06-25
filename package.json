@@ -1,0 +1,29 @@
+{
+  "name": "recipe-book-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "lottie-react": "^2.4.1",
+    "mongodb": "^6.16.0",
+    "nodemon": "^3.1.10",
+    "react-awesome-reveal": "^4.3.1",
+    "react-simple-typewriter": "^5.0.1",
+    "react-tooltip": "^5.28.1",
+    "swiper": "^11.2.8"
+  },
+  "devDependencies": {
+    "vercel": "^42.1.1"
+  }
+}
