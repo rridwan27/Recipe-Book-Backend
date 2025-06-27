@@ -91,7 +91,7 @@ async function run() {
 
     app.get("/recipes/top", async (req, res) => {
       try {
-        const limit = parseInt(req.query.limit) || 6;
+        const limit = parseInt(req.query.limit) || 8;
         const result = await recipesCollection
           .find()
           .sort({ likeCount: -1 })
